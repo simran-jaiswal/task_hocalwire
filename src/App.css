@@ -1,38 +1,73 @@
 .image-design {
   max-width: 600px;
   border-radius: 20px;
-  height: 450px;
-  padding: 5px 5px 5px 5px;
+  height: 440px;
+
+  background-image: url("https://www.usnews.com/dims4/USNEWS/e6746a9/2147483647/crop/4050x2701+0+0/resize/970x647/quality/85/?url=https%3A%2F%2Fwww.usnews.com%2Fcmsmedia%2F36%2F7c%2Fe74599764044b520182f06652f44%2F180831hcqatweedy-editorial.qatweedy.jpg");
 }
 
+.image-background {
+  background-color: white;
+  opacity: 0.4;
+  height: 440px;
+  flex-direction: column;
+  display: flex;
+  justify-content: space-between;
+  max-width: 600px;
+  border-radius: 20px;
+}
+
+.top {
+  max-height: 65px;
+  display: flex;
+  justify-content: space-between;
+}
+.bottom h3 {
+  font-size: 18px;
+  margin-left: 15px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  color: black;
+}
+.bottom p {
+  font-size: 12px;
+  margin-left: 20px;
+}
+.logo {
+  padding: 10px;
+}
+.imge-icon1 {
+  font-size: 40px;
+  margin-right: 10px;
+  margin-top: 10px;
+  color: rgb(37, 36, 36);
+}
 .tag {
   border-radius: 4px;
-  background-color: #FCF5E5;
+  background-color: #fcf5e5;
   font-size: 10px;
   padding: 1px 3px 1px 3px;
 }
 
-.main-section{
+.main-section {
   padding: 10px 10px 10px 10px;
-  height:15rem;
+  height: 15rem;
 }
 
-.title{
+.title {
   font-size: 16px;
   font-weight: 700;
   text-transform: capitalize;
 }
-.content{
+.content {
   font-size: 12px;
 }
-
-
-/* .icon1{
-  text-align: left;
-  float: right;
+.img-tag {
+  border-radius: 4px;
+  background-color: #69645a;
+  font-size: 16px;
+  font-weight: 500;
+  margin-left: 15px;
+  color: white;
+  padding: 1px 3px 1px 3px;
 }
-
-.icon2{
-  float: right;
-  text-align: end;
-} */
